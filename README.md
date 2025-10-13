@@ -1,6 +1,6 @@
 # lotl-mshta
 Demonstrates mshta.exe → inline JS → PowerShell (-EncodedCommand) with a staged download from a remote URL and in-memory binary execution, including complex DLL functionality. 
-Read this article to learn and run about this project: https://hackersterminal.com/how-mshta-spawns-powershell-and-executes-script-exe-dll-in-memory-from-remote-url/
+Read this article for instructions on how to run and understand this project: https://hackersterminal.com/how-mshta-spawns-powershell-and-executes-script-exe-dll-in-memory-from-remote-url/
 
 Overview
 
